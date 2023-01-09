@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita:ital@1&display=swap');
+
 .navbar-expand-md .navbar-collapse{
     position: fixed;
     top: 0%;
@@ -67,6 +69,8 @@
 
 
 .topnav a.icon {
+  margin-right: 2%;
+  font-weight: bolder;
   float: right;
 }
 
@@ -78,4 +82,30 @@
 .active {
   /* background-color: #04AA6D;
   color: white; */
+}
+.logoname{
+  font-family: 'Sansita', sans-serif !important;
+  left: 4.7em;
+  /* font-size: 2em; */
+  color: rgb(2, 65, 2);
+  position: absolute;
+  top: 18%;
+  /* font-weight: bold; */
+}
+.logoname font{
+  
+  color: rgb(125, 3, 3);
+}
+@media screen and (min-width: 1024px) and (min-height: 1320px) {
+
+
+  .open-button{
+    margin-right: 3.5em;
+  }
+}
+
+@media screen and (min-width: 300px) and (min-height: 800px){
+  .logoname{
+display: none;
+  }
 }
