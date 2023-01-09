@@ -96,9 +96,18 @@
   
   color: rgb(125, 3, 3);
 }
-@media screen and (min-width: 1024px) and (max-width: 1320px) {
-
-
+@media (min-width: 1024px) and (max-width: 1320px) {
+  .logo {
+    position: absolute;
+    left: 0%;
+}
+  .logoname {
+    left: 2em;
+    color: rgb(2, 65, 2);
+    position: absolute;
+    top: 30%;
+    font-family: Sansita, sans-serif !important;
+}
   .open-button{
     margin-right: 3.5em;
   }
