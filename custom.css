@@ -96,7 +96,7 @@
   
   color: rgb(125, 3, 3);
 }
-@media screen and (min-width: 1024px) and (min-height: 1320px) {
+@media screen and (min-width: 1024px) and (max-width: 1320px) {
 
 
   .open-button{
@@ -104,8 +104,17 @@
   }
 }
 
-@media screen and (min-width: 300px) and (min-height: 800px){
+@media (min-width: 300px) and (max-width: 800px){
   .logoname{
 display: none;
   }
+  .logoname {
+    /* font-family: 'Sansita', sans-serif !important;
+    left: 39%;
+    font-size: 1.5em;
+    color: rgb(2, 65, 2);
+    position: absolute;
+    top: -5%; */
+    /* font-weight: bold; */
+}
 }
